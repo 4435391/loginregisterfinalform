@@ -1,0 +1,98 @@
+*{
+	padding:0px;
+	margin:0px;
+
+}
+body{
+	font-family: 'Poppins', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+.login-box{
+	width:600px;
+	background:#eee;
+	margin:40px auto 0px;
+	padding:40px;
+
+
+}
+.login-form{
+	width:100%;
+	
+}
+.avatar{
+	width:100%;
+	text-align: center;
+}
+.avatar img{
+	width:150px;
+	height:150px;
+	border-radius: 100%;
+	border: 2px solid #000000;
+	
+}
+	.avatar h1{
+		font-size:54px;
+		line-height: 64px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.form-group{
+		width:100%;
+		margin: 10px 0px;
+
+
+	}
+	.form-group label{
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+
+	}
+
+.form-group .form-control{
+	width:97%;
+
+	padding:10px ;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.btn-primary{
+	padding:15px 40px ;
+	margin: 10px 0px 0px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: black;
+	border: 1px solid black;
+	border-radius: 5px
+
+}
+.btn-primary:hover{
+	cursor: pointer;
+	color:black;
+	background: white;
+	border: 1px solid black;
+}
+
+
